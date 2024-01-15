@@ -20,15 +20,16 @@ body {
 .container .result {
     width: 100%;
     height: 150px;
+    color: #626262;
     box-shadow: inset 2px 2px 5px #babecc,
         inset -5px -5px 10px #ffffff73;
-
 }
 
 .container .result p {
     font-size: 40pt;
     overflow-y: auto;
     text-align: right;
+    padding-right: 15px;
 }
 
 .container .buttons {
@@ -39,7 +40,7 @@ body {
 
 .container .buttons .button,
 .container .buttons .num-button {
-    cursor: grab;
+    cursor: pointer;
     text-align: center;
     width: 60px;
     font-size: 18px;
@@ -52,15 +53,14 @@ body {
 }
 
 .button:hover {
-    color: #3498db;
-
+    color: #3471db;
 }
 
 .container .buttons .zero {
     grid-column: 1/ 3;
     width: 100%;
     font-size: 18px;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 2px 2px 5px #babecc,
         -5px -5px 10px #ffffff73;
 }
